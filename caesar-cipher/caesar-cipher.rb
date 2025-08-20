@@ -1,4 +1,3 @@
-
 def caesar_cipher(string, shift)
   alphabet = ('a'..'z').to_a
   string.split('').reduce('') {|acc, char|
