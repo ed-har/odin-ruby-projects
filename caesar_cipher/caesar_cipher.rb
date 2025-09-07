@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def caesar_cipher(string, shift)
   alphabet = ('a'..'z').to_a
   string.split('').reduce('') do |acc, char|
@@ -18,4 +16,4 @@ def caesar_cipher(string, shift)
   end
 end
 
-p caesar_cipher('What a string!', 5)
+# p caesar_cipher('What a string!', 5)
